@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Pra_7_Css
+        </title>
+        <style>
+
+            .tooltip{
+                position: relative;
+                display: inline-block;
+                border-bottom: 2px dotted red;
+            }
+
+            .tooltip .pass{
+                visibility: hidden;
+                width: 120px;
+                background-color: black;
+                color: white;
+                text-align: center;
+                border-radius: 6px;
+                padding: 5px 0;
+            }
+
+            .tooltip:hover .pass{
+                visibility: visible;
+            }
+
+        </style>
+    </head>
+    <body>
+        <center>
+            <div class="tooltip">
+                
+                <form method=""  >
+                    <fieldset id="fl1">
+                        <legend align="center">Your Details</legend>
+        
+                        <label><b> Username:- </b></label><input id="user" type="text" placeholder="Enter Your Name">
+                        <br> <br>
+        
+                        <label><b> Password:- </b></label><input id="pass" type="text" placeholder="Enter Your Password">
+                        <br> <br>
+        
+                        <input id="submit" type="submit" value="Submit">
+                        <input id="reset" type="reset" value="Reset">
+                    </fieldset>
+                </form>
+            </div>
+        </center>
+    </body>
+</html>

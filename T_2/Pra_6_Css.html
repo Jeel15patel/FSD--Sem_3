@@ -1,0 +1,97 @@
+<!-- H / C to degine 1 loin form have (username_Password_Submit_Reset_hover each 
+control wich should aro 20% hor & Vartical with delay of 2s expans houst atke 4 s) --> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Pra_6_Css
+    </title>
+    <style>
+
+        #un{
+            /* User Name */
+            width: 10%;
+            height: 10%;
+            transition: width 4s , height 4s , 2s;
+        }
+
+        #ps{
+            /* Pass word */
+            width: 10%;
+            height: 10%;
+            transition: width 4s , height 4s , 2s;
+        }
+
+        #un:hover{
+            /* User_Name Hover  */
+            width: 20%;
+            height: 20%;
+        }
+
+        #ps:hover{
+            /* Password Hover */
+            width: 25%;
+            height: 20%;
+        }
+
+        #bs{
+            /* Buttun Submit */
+            width: 10%;
+            height: 10%;
+            transition: width 4s , height 4s , 2s;
+        }
+
+        #br{
+            /* Buttun Reset */
+            width: 10%;
+            height: 10%;
+            transition: width 4s , height 4s , 2s;
+        }
+
+        #bs:hover{
+            /* Buttun Submit Hover*/
+            width: 20%;
+            height: 20%;
+        }
+
+        #br:hover{
+            /* Buttun Reset Hover */
+            width: 25%;
+            height: 20%;
+        }
+
+        #fl1{
+            background-color: aqua;
+            
+            width: 50%;
+            height: 50%;
+        }
+
+        #fl1:hover{
+            background-color: blanchedalmond;
+            width: auto;
+            height: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+        <form method="" >
+            <fieldset id="fl1">
+                <legend align="center">Your Details</legend>
+
+                <label><b> Username:- </b></label><input id="un" type="text" placeholder="Enter Your Name">
+                <br> <br>
+
+                <label><b> Password:- </b></label><input id="ps" type="text" placeholder="Enter Your Password">
+                <br> <br>
+
+                <input id="bs" type="submit" value="Submit">
+                <input id="br" type="reset" value="Reset">
+            </fieldset>
+        </form>
+    </center>
+</body>
+</html>

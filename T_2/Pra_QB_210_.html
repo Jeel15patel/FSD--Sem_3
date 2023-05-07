@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            QB 210
+        </title>
+        <style>
+
+            #user:hover{
+                background-color: yellow;
+            }
+
+            #pass:hover{
+                background-color: pink;
+            }
+
+            #submit{
+                background-color: black;
+                color: yellow;
+            }
+
+            #submit:hover{
+                color: white;
+            }
+
+            #reset{
+                background-color: black;
+                color: yellow;
+            }
+
+            #reset:hover{
+                color: white;
+            }
+
+            input[type=checkbox]:checked + span{
+                color: red;
+                font-style: italic;
+            }
+
+            input[type=radio]:checked + span{
+                color: red;
+                font-style: italic;
+            }
+
+        </style>
+    </head>
+    <body>
+        <center>
+            <div class="tooltip">
+                
+                <form method=""  >
+                    <fieldset id="fl1">
+
+                        <legend align="center">Your Details</legend>
+        
+                        <label><b> Username:- </b></label><input id="user" type="text" placeholder="Enter Your Name">
+                        <br> <br>
+        
+                        <label><b> Password:- </b></label><input id="pass" type="text" placeholder="Enter Your Password">
+                        <br> <br>
+
+                        <div>
+                            <label><b> Gender:- </b></label>
+                            <label><input type="radio" name="Gender"><span> Male </span></label>
+                            <label><input type="radio" name="Gender"><span> Female </span></label>
+                            <br> <br>
+                        </div>
+
+                        <label><b> Sports </b></label> 
+                        <br>
+
+                        <label><input type="checkbox" name="Hobise"> 
+                            <span>
+                                Vollyball 
+                            </span>
+                        </label>
+
+                        <br>
+
+                        <label><input type="checkbox" name="Hobise"> 
+                            <span>
+                                Cricket 
+                            </span>
+                        </label>
+
+                        <br>
+
+                        <label><input type="checkbox" name="Hobise">
+                            <span> 
+                                Football 
+                            </span>
+                        </label>
+
+                        <br>
+
+                        <label><input type="checkbox" name="Hobise"> 
+                            <span>
+                                Other
+                            </span> 
+                        </label>
+                        
+                        <br> <br>
+        
+                        <input id="submit" type="submit" value="Submit">
+                        <input id="reset" type="reset" value="Reset">
+
+                    </fieldset>
+                </form>
+            </div>
+        </center>
+    </body>
+</html>

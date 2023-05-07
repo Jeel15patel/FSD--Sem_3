@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Css Pagenation
+        </title>
+        <style>
+
+            .pagination{
+                display: inline-block;
+                border: 2px solid black;
+            }
+
+            .pagination a{
+                color: black;
+                padding: 20px;
+                text-decoration: none;
+                border: 1px solid black;
+                float: left;
+            }
+
+            .pagination a.active{
+                background-color: black;
+                color: white;
+                border-radius: 10px;    
+            }
+
+            .pagination a:hover:not(active){
+                background-color: aqua;
+                border: 1px solid aqua;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <h1>
+            pagination 
+        </h1>
+
+        <div class="pagination">
+            <a href="#">&laquo; </a>
+            <a href="#">1 </a>
+            <a href="#" class="active">2 </a>
+            <a href="#">3 </a>
+            <a href="#">4 </a>
+            <a href="#">5 </a>
+            <a href="#">&raquo; </a>
+        </div>
+
+    </body>
+</html>

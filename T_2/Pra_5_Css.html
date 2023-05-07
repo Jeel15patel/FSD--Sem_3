@@ -1,0 +1,91 @@
+<!-- W HTML CSS to display to ( table ) of ( width 50% ) haveing ( 3 col 3 row ) randam data this to 
+table hrag horzontal ctrea initiall ( first table blue and scong light green color and page turn 
+to postrade mood color of will be reaves) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Pra_5_Css
+    </title>
+    <style>
+        #TB1{
+            width: 500px;
+            height: 500px;
+            border: 3px solid black;
+            background-color: lightgreen;
+            text-align: center;
+            float: left;
+        }
+
+        #TB2{
+            width: 500px;
+            height: 500px;
+            border: 3px solid black;
+            background-color: lightblue;
+            text-align: center;
+            float: right;
+        }
+
+        @media only screen and ( orientation: portrait )
+            {
+                #TB1
+                {
+                    background-color: lightblue;
+                }
+
+                #TB2
+                {
+                    background-color: lightgreen;
+                }
+            }
+
+    </style>
+</head>
+<body>
+    <table rules="all" id="TB1">
+
+        <tr>
+            <td> 1 </td>
+            <td> 2 </td>
+            <td> 3 </td>
+        </tr>
+
+        <tr>
+            <td> 4 </td>
+            <td> 5 </td>
+            <td> 6 </td>
+        </tr>
+        
+        <tr>
+            <td> 7 </td>
+            <td> 8 </td>
+            <td> 9 </td>
+        </tr>
+
+    </table>
+
+    <table rules="all" id="TB2">
+
+        <tr>
+            <td> 9 </td>
+            <td> 8 </td>
+            <td> 7 </td>
+        </tr>
+
+        <tr>
+            <td> 6 </td>
+            <td> 5 </td>
+            <td> 4 </td>
+        </tr>
+        
+        <tr>
+            <td> 3 </td>
+            <td> 2 </td>
+            <td> 1 </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>

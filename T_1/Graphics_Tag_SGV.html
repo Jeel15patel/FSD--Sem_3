@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Graphics_Tag_( SVG ) </title>
+</head>
+
+<body>
+
+    <!-- Line -->
+    <svg height="500" width="500" style="border: 2px solid black;">
+        <line x1="150" y1="300" x2="300" y2="150" stroke="red" stroke-width="5">
+        </line>
+    </svg>
+
+    <!-- Circle -->
+    <svg height="500" width="500" style="border: 2px solid black;">
+        <circle cx="150" cy="150" r="100" stroke="red" stroke-width="5" fill="Yellow">
+        </circle>
+    </svg>
+
+    <!-- Rectangle -->
+    <svg height="500" width="500" style="border: 2px solid black;">
+        <rect x="50" y="50" rx="10" ry="10" height="300" width="200" stroke="red" stroke-width="5" fill="Yellow">
+        </rect>
+    </svg>
+
+    <!-- Star -->
+    <!-- points="   X  ,  Y   ,   Z  ,  Q  ,   P   " -->
+    <!-- points="100,10,40,198,190,78,10,78,160,198" -->
+    <svg height="500" width="500" style="border: 2px solid black;">
+        <polygon points="100,10,40,198,190,78,10,78,160,198" stroke="red" stroke-width="5" fill-rule="evenodd">
+        </polygon>
+    </svg>
+
+    <!-- Hexagone -->
+    <svg height="500" width="600" style="border: 2px solid black;">
+        <polygon points="258,68,373,124,373,233,257,288,142,232,141,123" stroke="red" stroke-width="5"
+            fill-rule="evenodd">
+        </polygon>
+    </svg>
+
+    <!-- Rectangle & Star -->
+    <svg height="500" width="500" style="border: 2px solid black;">
+        <rect x="50" y="50" rx="10" ry="10" height="400" width="400" stroke="red" stroke-width="5" fill="Yellow">
+        </rect>
+        <circle cx="250" cy="250" r="100" stroke="red" stroke-width="5" fill="black"></circle>
+        <text x="200" y="270" fill="white" font-size="50">
+            SVG
+        </text>
+    </svg>
+
+</body>
+
+</html>

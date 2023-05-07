@@ -1,0 +1,94 @@
+<!-- write html css to cheack all sudo :- heading text , prag tag , pre tag , which sudo  calss work on wich tag  -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Pra_4_Css
+        </title>
+        <style>
+
+            h1{
+                color: brown;
+                border: 5px dotted royalblue;
+            }
+
+            h1:link{
+                color: purple;
+            }
+
+            h1:visited{
+                color: blue;
+            }
+
+            h1:hover{
+                font-size: 40px;
+                transition-duration: 5S;
+            }
+
+            h1:active{
+                color: yellow;
+            }
+
+            p::first-letter{
+                color: yellowgreen;
+                background-color: crimson;
+            }
+
+            p::first-line{
+                color: springgreen;
+                background-color: violet;
+            }
+
+            p::selection{
+                color: darkgoldenrod;
+                background-color: aqua;
+            }
+
+            pre::after{
+                content: url(Time_pp.png);
+            }
+
+            pre::before{
+                content: url(Time_pp.png);
+            }
+
+            pre::first-letter{
+                color: yellowgreen;
+                background-color: crimson;
+            }
+
+            pre::first-line{
+                color: springgreen;
+                background-color: violet;
+            }
+
+            pre::selection{
+                color: darkgoldenrod;
+                background-color: aqua;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <h1>
+            This TAG is Heading Tag :- Jeel Patel 
+        </h1>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Minus quidem aliquam delectus dolor. 
+            Saepe soluta amet quod sunt consequatur omnis architecto. 
+            Tempore ratione culpa accusamus ex, inventore ullam in. Reprehenderit.
+        </p>
+
+        <pre>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Minus quidem aliquam delectus dolor. 
+            Saepe soluta amet quod sunt consequatur omnis architecto. 
+            Tempore ratione culpa accusamus ex, inventore ullam in. Reprehenderit.
+        </pre>
+
+    </body>
+</html>

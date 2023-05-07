@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- ( 1 :- First Line ) ( 2 :- First Letter ) ( 3 :- Before ) -->
+        <!-- ( 4 :- After ) ( 5 :- Marker ) ( 3 :- Selection ) -->
+        <title>
+            Sudo_Element_Css
+        </title>
+        <style>
+
+            p::first-line{
+                color: brown;
+            }
+
+            p::first-letter{
+                color: blue;
+            }
+
+            p::selection{
+                color: darkgoldenrod;
+                background-color: aqua;
+            }
+
+            p::after{
+                content: url(Time_pp.png);
+            }
+
+            p::before{
+                content: url(Time_pp.png);
+            }
+
+            ol li::marker{
+                color: darkgreen;
+                font-size: 50px;
+            }
+
+            ul li::marker{
+                color: tomato;
+                font-size: 50px;
+            }
+
+            h1{
+                border: 5px solid black;
+            }
+
+            h1:hover{
+                color: aquamarine;
+                font-style: italic;
+                
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <h1>
+            Jeel Patel 
+        </h1>
+
+        <h2>
+
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        
+                Incidunt expedita voluptate architecto magnam iste iusto labore perferendis qui sapiente libero, 
+            
+                possimus dolorem eos, perspiciatis accusantium aliquid doloribus non quam dolorum!
+            </p>
+
+            
+            <ol>
+                <li> ABC </li>
+                <li> DEF </li>
+                <li> GHI </li>
+            </ol>
+
+            <ul>
+                <li> ABC </li>
+                <li> DEF </li>
+                <li> GHI </li>
+            </ul>
+
+        </h2>
+
+    </body>
+</html>

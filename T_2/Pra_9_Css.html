@@ -1,0 +1,45 @@
+<!-- Html/Css to make a hoverable link button have blue border white background while hover should be disaper and entr button 
+showld get blue width trand and pointer effect to store blue in ccs vriable it use feulent.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Pra_9
+        </title>
+        <style>
+
+            :root{
+                --blue:rgb(0,0,255);
+            }
+
+            button{
+                width: 200px;
+                height: 100px;
+                background-color: white;
+                border-radius: 10px;
+                border: 2px solid blue;
+                padding: 5px 1px;
+                text-align: center;
+                font-size: 20px;
+                cursor: pointer;   
+            }
+    
+            .button:hover{
+                background-color: blue;
+                border: none;
+                color: var(--blue);
+                transition-duration: 2s;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <button class="button" >
+            Submit
+            <a href="mouse.png"> </a> 
+        </button>
+
+    </body>
+</html>

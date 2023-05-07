@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Tiiltip Css
+            <!-- inline , block , inline-block , None -->
+        </title>
+        <style>
+
+            .tooltip{
+                position: relative;
+                display: inline-block;
+                border-bottom: 2px dotted red;
+            }
+
+            .tooltip .tooltiptext{
+                visibility: hidden;
+                width: 120px;
+                background-color: black;
+                color: white;
+                text-align: center;
+                border-radius: 6px;
+                padding: 5px 0;
+            }
+
+            .tooltip:hover .tooltiptext{
+                visibility: visible;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>
+            <div class="tooltip"> 
+                Hover Over
+                <span class="tooltiptext">
+                    tooltiptext
+                </span>
+            </div>
+        </h1>
+        <!--<center>
+            <form method="" >
+                <fieldset id="fl1">
+                    <legend align="center">Your Details</legend>
+    
+                    <label><b> Username:- </b></label><input id="un" type="text" placeholder="Enter Your Name">
+                    <br> <br>
+    
+                    <label><b> Password:- </b></label><input id="ps" type="text" placeholder="Enter Your Password">
+                    <br> <br>
+    
+                    <input id="bs" type="submit" value="Submit">
+                    <input id="br" type="reset" value="Reset">
+                </fieldset>
+            </form>
+        </center> -->
+    </body>
+</html>
