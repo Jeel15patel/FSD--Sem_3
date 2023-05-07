@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Pra_3
+        </title>
+        <script src="JavaScrip.js"></script>
+    </head>
+    <body>
+        <div id="id1"> ABC </div>
+        <input type="submit" onclick="fun('red','green')" value="click"/>
+
+        <script>
+            fun = (bg,color,size="50px",style="italie") =>
+            {
+                i = document.getElementById("id1"),
+                i.style.color=color,
+                i.style.backgroundColor = bg,
+                i.style.fontSize = size,
+                i.style.fontStyle = style
+                i.innerHTML = "Hello Jeel";
+            }
+        </script>
+    </body>
+</html> 

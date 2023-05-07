@@ -1,0 +1,131 @@
+Navbar :-- 
+1 :- It is satander navigation bar and genly use in nav tag.
+navbar-expand :- To created resposive collaping class. 
+navbar-nav :- 
+nav nav-item :-
+nav link :- 
+navbar brand :- 
+
+Carousel / Slideshow :--
+
+Model :-- Waring Box & Alert Box 
+    :- Header :- 
+    :- Body
+    :- Footer
+    :- Model :- it is parent class Model speci
+    :- Model-dilog :- to pop entir dilog Box
+    :- Model-conten :- it represent enter body header and footer.
+    :- Model-header :- 
+    :- Model-body :- 
+    :- Model-footer :-
+
+    
+Scrollspy :- 
+    data-bd-spy :- element that shoude be usd for scoraleable area and add in body tag 
+    fixed-top :-
+
+Flexbox :- Inded of flode pro use flexbox .
+    d-flex :- it creat flexbox contain and behaves like a block level element. 
+    d-inline-flex :- 
+    d-flex justify-content-start
+    d-flex justify-content-end
+    d-flex justify-content-center
+    d-flex justify-content-between
+    d-flex justify-content-around   
+    flex-fill   
+    flex-nowrap :- it will not arrrange it scree sixe turn small 
+    flex-wrap :- it scree arrange vrital 
+    flex-revers :- 
+
+
+Form :- 
+    form-control :- 
+    form-cheack :- This use outer div
+    form-cheack-lable :- 
+    form-cheack-input :-
+
+    inline-form :- all control will be adjaste in onle line
+    
+    was-validated :- it alowed primary validat this like root class all validated
+
+    needs-validated :- it give worning or success message after click submit button
+
+    valid-feedback :- use in div tag to print message after validat 
+
+WAS four section :- 
+    1 :- LOgo..
+    2:- Proggbar :- strip :- 50 with
+    3:- form :- U P Sb
+    4:- Table haveing 3col bg-yello hover effect  to for male divec drecess wih all sction ca
+
+
+
+
+JavaScript :- 
+
+less sever interface to server.
+Imd feedback to user.
+
+JS Variables :- 
+Var :- 
+const :- 
+let :- 
+
+if (Exp)
+{
+    statement;
+}
+else if (Exp)
+{
+    statement;
+}
+else
+{
+    statement;
+}
+
+loop :- 
+entry control loop :- while , for
+exit control loop :- do-while , 
+
+<-------- CH :- 10 :- Advance JS ------------>
+
+tag name :- Object
+
+Attribute :- Object Property
+
+Wich task done by DOM
+
+1 :- it can change Attribute of element
+2 :- it can change CSS Property of element
+3 :- it help event handling 
+4 :- it is user cinte side validation
+
+
+onclick :- 
+onchange :- 
+onblur :- 
+onfocus :- 
+onmouseover :- 
+onmouseup :- 
+onmousedown :-
+onsubmit :- 
+
+/ABC/i :- i means :- it perform case seative
+/[abc]/ :- 
+/[^abc]/ :-  
+/^[abc]/ :- 
+
+
+<<<<----- CH - 10 -------->>>>>>>>
+
+conts = it help us to created variable conts Variables not change..
+
+JavaScript default parameter :- default 
+
+for(variable of itera)
+{
+    //
+}
+
+map object is nwe collstion hold key value pair in which any type can be use as either key and value

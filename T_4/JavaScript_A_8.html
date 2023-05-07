@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            JavaScript_1_8
+        </title>
+        <script src="JavaScrip.js"></script>
+    </head>
+
+    <body>
+        <!-- This is simple Hello program. 
+        <button onclick="Hello()" value="SayHello">
+            Click Me
+        </button> -->
+
+        <br><br><br>
+
+        <!-- This is WRITE with javascript  -->
+        <script>
+            document.write("Hello This is document.write")
+        </script>
+
+        <br><br><br>
+
+        <!-- JS Variables
+            4+5+"Car" :- 9Car
+            "Car"+4+5 :- Car45   it take first data type    
+        -->
+        <script>
+            var x = 4 + 5 + "Car" + 9 + 5;
+            document.write(x);
+        </script>
+
+        <br><br><br>
+
+        <!-- if Loop -->
+        <script>
+            var x = 2;
+            if (x % 2 == 0) {
+                document.write("Even");
+            }
+            else {
+                document.write("Odd");
+            }
+        </script>
+
+        <br><br><br>
+
+        <script>
+            var x = 9;
+            if (x < 19) {
+                document.write("Teen");
+            }
+            else if (x > 19) {
+                document.write("Adult");
+            }
+            else if (x > 100) {
+                document.write("Old");
+            }
+        </script>
+
+        <br><br><br>
+
+        <script>
+            var book = "FSD"
+            if (book == "Maths") {
+                document.write("Maths Book");
+            }
+            else if (book == "FSD") {
+                document.write("FSD");
+            }
+            else if (book == "Python") {
+                document.write("Python5");
+            }
+        </script>
+        
+        <br><br><br>
+
+        <!-- while Loop -->
+        <script>
+            var count = 0;
+            while (count < 51)
+            {
+                document.write("Count:"+count+"<br>");
+                count++
+                
+            }
+        </script>
+
+        <br><br><br>
+
+        <!-- For Loop -->
+        <script>
+            for(var x=0;x<=5;x++)
+            {
+                document.write("Count:"+x+"<br>");
+            }
+        </script>
+
+        <br><br><br>
+
+        <!-- Even Odd -->
+        <script>
+            for (var x=0;x<=20;x++)
+            {
+                if ( x % 2 == 0 )
+                {
+                    document.write("Even:"+x+"<br>");
+                }
+                else
+                {
+                    document.write("Odd:"+x+"<br>");
+                }
+            }
+        </script>
+
+        <br><br><br>
+
+        <!-- Even Only -->
+        <script>
+            for (var x=10;x<=25;x++)
+            {
+                if ( x % 2 == 0 )
+                {
+                    document.write("Even:"+x+"<br>");
+                }
+            }
+        </script>
+
+        <br><br><br>
+
+        <!-- Odd Only -->
+        <script>
+            for (var x=10;x<=25;x++)
+            {
+                if ( x % 2 != 0 )
+                {
+                    document.write("Even:"+x+"<br>");
+                }
+            }
+        </script>
+
+        <br><br><br>
+
+        <!-- give number is geat than 100 or not is great print nume -->
+        <script>
+            var a = 101;
+            
+            if (x > 100)
+            {
+                document.write("The Number is greatthan"+x+"<br>");
+            }
+        </script>
+
+        <br><br><br>
+
+        <!-- fibonacci series -->
+        <script>
+            var a = 0
+            var b = 1
+            document.write("No."+a+"<br>")
+            document.write("No."+b+"<br>")
+            for(i=1;i<=5;i++)
+            {
+                sum = 0
+                sum = a + b
+                a = b
+                b = sum
+                document.write("No."+sum+"<br>")
+            }
+        </script>
+
+        <br><br><br>
+
+        <!-- Do whine -->
+        <script>
+            var x=0;
+            do
+            {
+                document.write("No."+x+"<br>")
+                x++
+            }
+            while(x<5)
+        </script>
+
+        <br><br><br>
+
+        <!-- Break // Continue -->
+
+        <script>
+            for(var a=1;a<=10;a++)
+            {
+                if(a==3)
+                {
+                    document.write("Hello"+a+"<br>")
+                    break;
+                }
+                document.write("Number"+a+"<br>")
+            }
+        </script>
+
+        <br><br><br>
+
+        <!-- Switch -->
+        <script>
+            var grade = "B"
+            switch(grade)
+            {
+                case "A":
+                document.write("Good")
+                break;
+
+                case "B":
+                document.write("Ok")
+                break;
+
+                case "C":
+                document.write("Unknow")
+                break;
+
+                default:
+                document.write("Default Part")
+                break;
+            }
+        </script>
+
+        <br><br><br>
+
+        <script>
+            var a = 10
+            var b = 10
+            var casea = "+"
+            switch(casea)
+            {
+                case "+":
+                c = a + b
+                document.write("Total "+c)
+                break;
+
+                case "-":
+                c = a - b
+                document.write("Total "+c)
+                break;
+
+                case "*":
+                c = a * b
+                document.write("Total "+c)
+                break;
+
+                case "/":
+                c = a / b
+                document.write("Total "+c)
+                break;
+
+                default:
+                document.write("Default Part")
+                break;
+            }
+        </script>
+
+        <br><br><br>
+
+        <script>
+            function myfun()
+            {
+                document.write('<table><tr><td> The A </td><td> The A </td></tr><tr><td> The A </td><td> The A </td></tr></table>')
+            }
+        </script>
+        <button onclick="myfun()">
+            Click Me
+        </button>
+
+        <br><br><br>
+
+        <script>
+            function myfun1(name,age)
+            {
+                document.write(name+"is"+age);
+            }
+        </script>
+        <button onclick="myfun1('xyds',20)">
+            Click Me
+        </button>
+
+        <br><br><br>
+
+        <script>
+            for (var i=0;i<=20;i++)
+            {
+                if(i%2!=0 & i%7==0)
+                {
+                    document.write("Number is "+i)
+                }
+            }
+        </script>
+
+        <br><br><br>
+        
+        <!-- Find even number letter -->
+        <script>
+            var x = "TNTIA";
+            len = x.length
+            for(i=0;i<len;i++)
+            {
+                if(i%2 == 0)
+                {
+                    document.write(x[i])
+                }
+            }
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            JavaScript_9_B
+        </title>
+        <script src="JavaScrip.js"></script>
+    </head>
+    <body>
+
+        <div>
+            <input type="text" id="id1"/>
+            <input type="submit" onclick="fun()"/>
+            <script>
+                function fun()
+                {
+                    pat = /\W   /;
+                    var u = document.getElementById("id1").value;
+                    if(pat.test(u))
+                    {
+                        alert("Perfect");
+                    }
+                    else
+                    {
+                        alert(pat+" is Need") 
+                    }
+                }
+            </script>
+        </div>
+
+    </body>
+</html> 

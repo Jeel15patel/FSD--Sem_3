@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            JavaScript_10_A
+        </title>
+    </head>
+    <body>
+
+        <!-- <div>
+            <script>
+                let a=10;
+                if(a>4)
+                {
+                    let a = 100
+                    console.log("A inside is "+a)
+                }
+                console.log(a)
+            </script>
+        </div> -->
+
+        <!-- <div>
+            <script>
+                const d = "DEF";
+                const a = "ABC";
+                console.log(`${a} ${d}`)
+            </script>
+        </div> -->
+
+        <!-- <div>
+            <script>
+                const greet = ()=>
+                {
+                    console.log("Good Morning")
+                }
+                greet()
+            </script>
+        </div> -->
+
+        <!-- <div>
+            <script>
+                greet = (p) =>
+                {
+                    console.log(`Print Var: ${p}`);
+                }
+                console.log(greet(30));
+            </script>
+        </div> -->
+
+        <!-- <div>
+            <script>
+                add = (j,k) => `${j+k}`
+                console.log(`Ans= ${30,40}`)
+            </script>
+        </div> -->
+
+        <!-- <div>
+            <script>
+                odd = [1,2,3];
+                combine = [5,6,7,...odd]
+                console.log(combine)
+            </script>
+        </div> -->
+
+        <!-- <div>
+            <script>
+                function f(a,b,...args)
+                {
+                    console.log(args);
+                }
+                f(2,3,4,5,6,7,8)
+            </script>
+        </div> -->
+
+        <!-- <div>
+            <script>
+                myfun = (p,q,...args) =>
+                {
+                    return (p+q+args);
+                }
+                console.log(myfun(9,11,12,14,5,6))
+            </script>
+        </div> -->
+
+        <!-- <div>
+            <script>
+                myfun = (...args) =>
+                {
+                    console.log(args);
+                }
+                myfun(10,-1,0,5,6,7)
+            </script>
+        </div> -->
+
+        <!-- <div>
+            <script>
+                defaultf = (p,q=10) =>
+                {
+                    return (p+q);
+                }
+                console.log(`Ans = ${defaultf(10)}`)
+            </script>
+        </div> -->
+
+        <!-- <div>
+            <script>
+                defaultf = (p=10,q) =>
+                {
+                    return (p+q);
+                }
+                console.log(`Ans = ${defaultf(10)}`)
+            </script>
+        </div> -->
+
+        <!-- <div>
+            <script>
+                var obj = {
+                Fname : "Ram",
+                Lname : "XYZ",
+                Age : 18,
+                Country : "India"
+                }
+                for(var i in obj)
+                {
+                    console.log(i+":"+obj[i])
+                } 
+            </script>
+        </div> -->
+
+        <!-- <div>
+            <script>
+                let scores = [20,30,40,50,60]
+                for (let s of scores)
+                {
+                    console.log(s)
+                }
+            </script>
+        </div> -->
+
+        <!-- <div>
+            <script>
+                let colors = ["Red","Blue","Yellow"]
+                for (const[index,color] of colors.entries())
+                {
+                    console.log(`${color} is at index of ${index}`)
+                }
+            </script>
+        </div> -->
+
+        <!-- <div>
+            <script>
+                let colors = [323,32545,5642345,73567]
+                for (const[index,color] of colors.entries())
+                {
+                    console.log(`${color} is at index of ${index}`)
+                }
+            </script>
+        </div> -->
+
+        <!-- <div>
+            <script>
+                let map = new Map();
+                map.set("XYZ","Brother")
+                map.set("ABC","Father")
+                map.set("DEF","Mother")
+                map.delete("ABC")
+                map.set("PQR","Sister")
+                console.log(map)
+            </script>
+        </div> -->
+
+        <!-- <div>
+            <script>
+                let map = new Map();
+
+                map.set("This","A")
+                map.set("is","B")
+                map.set("demo","C")
+                console.log(map)
+
+                map.delete("This")
+                console.log(map)
+
+                map.set("is","X")
+                map.set("demo","Y")
+                console.log(map)
+            </script>
+        </div> -->
+
+        <!-- <div>
+            <script>
+                let text = "This is Demo"
+                s = text.startsWith("T")
+                console.log(s)
+
+                e = text.endsWith("o")
+                console.log(e)
+
+                i = text.includes("x")
+                console.log(i)
+
+            </script>
+        </div> -->
+
+        <!-- <div>
+            <script>
+                function getscores()
+                {
+                    return [70,30,405,60,50]
+                }
+                let scores = getscores()
+                let x = scores[0]
+                let y = scores[1]
+                let z = scores[2]
+                let a = scores[3]
+                let b = scores[4]
+                console.log(` x=${x} , y=${y} , z=${z} , a=${a} , b=${b}`)
+            </script>
+        </div> -->
+
+        <!-- <div>
+            <script>
+                getscores = () =>
+                {
+                    return [70,30,405,455]
+                }
+                let [x,y,a,z] = getscores()
+                console.log(` x=${x} , y=${y} , z=${z} , a=${a}`)
+            </script>
+        </div> -->
+
+        <!-- <div>
+            <script>
+                getscores = () =>
+                {
+                    return ["ABC","BCD","DEF","sr"]
+                }
+                let [x,y,a,z] = getscores()
+                console.log(` x=${x} , y=${y} , z=${z} , a=${a}`)
+            </script>
+        </div> -->
+
+        <!-- <div>
+            <script>
+                user={
+                    username : "Jeel",
+                    age : 20
+                }
+                console.log(user)
+            </script>
+        </div> -->
+
+        <!-- <div>
+            <script>
+                class person
+                {
+                    constructor(n,a)
+                    {
+                        this.name = n
+                        this.age = a
+                    }
+                    getName = () =>
+                    {
+                        return this.name
+                    }
+                }
+                let obj = new person("XYZ",23)
+                console.log(obj.getName())
+            </script>
+        </div> -->
+
+        <!-- <div>
+            <script>
+                let person = 
+                {
+                    Fname : "Jeel",
+                    Lname : "Patel"
+                };
+                console.log(`First Name = ${person.Fname}`)
+                console.log(`Last Name = ${person.Lname}`)
+
+                // let [Fname,Lname] = person;
+                // console.log(Fname)
+                // console.log(Lname)
+            </script>
+        </div> -->
+    </body>
+</html>

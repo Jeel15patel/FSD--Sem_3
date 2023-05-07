@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        JavaScript_2_8
+    </title>
+    <script src="JavaScrip.js"></script>
+</head>
+
+<body>
+    <!--
+        <script>
+            let a = [1,2,3,4,"Hello",false];
+            document.write(a+"<br>");
+            document.write(a[2]+"<br>");
+            document.write("Length is"+a.length+"<br>")
+            a[6] = 80
+            document.write(a+"<br>")
+            delete a[0]
+            document.write(a+"<br>")
+            document.write("Length is"+a.length+"<br>")
+            document.write(a.pop()+"<br>")
+            document.write(a.push(100)+"<br>")
+            document.write(a+"<br>");
+        </script>
+
+        <br><br><br>
+
+        <script>
+            let z = [1,2,3,4,"Hello",false]
+            let x = [10,11,12]
+            let y = [14,114,162]
+            let g = z.concat(x,y)
+            console.log(g)
+            let ab = [10,2,5,3,4,1,8,6,7,9]
+            ab.sort()
+            console.log(ab)
+        </script>
+
+        <br><br><br>
+
+        <script>
+            let ac = [11,12,15,13   ]
+            let ad = [22,22,25,23]
+            function ok(ac,bd)
+            {
+                return ab-ac
+            }
+            a.sort(compare)
+            console.log(a)
+        </script>
+    
+        <br><br><br>
+    
+        <script>
+            let a = [1,2,3,"Jeel"]
+            let b = [4,5,6,"Patel"]
+            for(let i=0;i<a.length;i++)
+            {
+                document.write(a[i]+"<br>")
+            }
+            console.log(a)
+        </script>
+
+        <br><br><br>
+
+        <script>
+            // JS popbox
+            alert("This is Alert")
+        </script>
+
+        <br><br><br>
+
+        <script>
+            // prompt :- User Input
+
+            a = prompt("Enter Number");
+            if (a == null || a == "")
+            {
+                Text = "Enter The Value"
+            }
+            else
+            {
+                Text = "Hello "+a
+            }
+            document.write(Text)
+        </script>
+
+        <br><br><br>
+
+        <script>
+            // Confirm
+            let deletepost = confirm("Do you conform what to Delet")
+            if (deletepost)
+            {
+                document.write("Delet Post😉")
+            } 
+            else
+            {
+                document.write("Please Delet Post!")
+            }
+        </script>
+
+    
+        <script>
+            // WAP to take 3 number form user and print max number on alet box
+
+            a1 = parseInt(prompt("Enter Number"));
+            a2 = parseInt(prompt("Enter Number"));
+            a3 = parseInt(prompt("Enter Number"));
+
+            if (a1 > a2 && a1 > a3) {
+                alert("Max is " + a1)
+            }
+            else if (a2 > a1 && a2 > a1) {
+                alert("Max is " + a2)
+            }
+            else {
+                alert("Max is " + a3)
+            }
+        </script>
+        -->
+
+    <!-- <script>
+            // JS Maths Object
+            // sqrt :- Squrt Root
+
+            console.log(Math.sqrt(121));
+
+            console.log(Math.abs(-121));
+
+            console.log(Math.ceil(-2.8));
+
+            console.log(Math.floor(-6.8));
+
+            console.log(Math.pow(2,3));
+
+        </script> -->
+
+    <!-- <script>
+            var x = "Hello"
+            console.log(x.charAt(1));
+            console.log(x.charCodeAt("H"))
+        </script> -->
+
+    <!-- <script>                   
+            var x = "This is Example"
+            var y = "e"
+            console.log(x.indexOf(y))
+            console.log(x.lastIndexOf(y))
+        </script> -->
+
+    <!-- <script>
+            var a = "ABCD"
+            var b = "ZX"
+            var c = "TH"
+            console.log(a.replace("AB",b))
+            console.log(a.replace("CD",c))
+        </script> -->
+
+    <!-- <script>
+            var a = "This/is/Demo"
+            var b = "/"
+            console.log(a.split(b))
+        </script> -->
+
+    <!-- <script>
+            var a = "This is xyz"
+            let b = a.substring(2,5) // it count 1 leng -
+            let c = a.substr(2,5) // it count 1 leng +
+            console.log(b)
+            console.log(c)
+        </script> -->
+
+    <!-- <script>
+        var a = "JEEL PATEL"
+        var b = "jeel patel"
+        let u = a.toLowerCase()
+        let l = b.toUpperCase()
+        console.log(u)
+        console.log(l)
+    </script> -->
+
+    <!-- <script>
+        d = new Date()
+        day1 = d.getDate()
+        day2 = d.getDay()
+        day3 = d.getFullYear()
+        day4 = d.getHours()
+        day5 = d.getMinutes()
+        day6 = d.getMonth()
+        console.log(day1)
+        console.log(day2)
+        console.log(day3)
+        console.log(day4)
+        console.log(day5)
+        console.log(day6)
+    </script> -->
+
+    <script>
+        var num = [14, 22, 229, 3, 5]
+        num.sort(function (a, b) {
+            return a - b;
+            return b - a;
+        });
+        console.log(num);
+    </script>
+
+    <script>
+        var emp = {
+            id: 120,
+            name: "Jeel",
+            salary: 500000
+        }
+        document.write("Id " + emp.id + "<br>")
+        document.write("Name " + emp.name + " " + "Salary " + emp.salary)
+    </script>
+
+    <br><br><br>
+
+    <script>
+        var emp = new Object()
+        emp.id = 120,
+            emp.name = "Jeel",
+            emp.salary = 500000
+        document.write("Id " + emp.id + "<br>")
+        document.write("Name " + emp.name + " " + "Salary " + emp.salary)
+    </script>
+
+    <br><br><br>
+
+    <script>
+        function emp(id, name, salary) {
+            this.id = id;
+            this.name = name;
+            this.salary = salary;
+        }
+        e = new emp(101, "Jeel", 20302220);
+        document.write("Id " + e.id + "<br>");
+        document.write("Name " + e.name + " " + "Salary " + e.salary);
+    </script>
+
+</body>
+
+</html>
+
+<!-- WAP To find how many day are left in your birthday  -->

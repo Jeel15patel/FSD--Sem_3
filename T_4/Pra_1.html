@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Pra_1
+        </title>
+        <script src="JavaScrip.js"></script>
+    </head>
+    <body>
+
+        <div>
+            Username :-
+            <input type="text" name="uname" id="uname">
+
+            Password :-
+            <input type="password" name="pass" id="pass">
+
+            <button type="submit" value="submit" onclick="fun1()">Submit</button>
+
+
+            <script>
+                function fun1()
+                {
+                    u = document.getElementById("uname").value;
+                    if(u.length > 6 & u.length < 10)
+                    {
+                        alert("Prefect")
+                    }
+                    else
+                    {
+                        alert("Please Enter Valid Username")
+                    }
+
+                    if(u.length=="")
+                    {
+                        alert(" Enter The Username")
+                    }
+                    
+
+                    p = document.getElementById("pass").value;
+                    if(p.length > 6 & p.length < 10)
+                    {
+                        alert("Prefect")
+                    }
+                    else
+                    {
+                        alert("Not Prefect")
+                    }
+
+                    if(p.length=="")
+                    {
+                        alert(" Enter The Password")
+                    }
+                }
+            </script>
+        </div>
+
+    </body>
+</html> 

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        JavaScript_9_A
+    </title>
+    <script src="JavaScrip.js"></script>
+</head>
+
+<body id="by1">
+    <!----------------------------------------->
+    <!-- document.getElementById -->
+    <!-- <p id="id1">
+            This is Text1
+        </p>
+        <button onclick="call1()">
+            Click Me
+        </button>
+
+        <script>
+            function call1()
+            {
+                document.getElementById("id1").innerHTML = "Hello Jeel";
+            }
+        </script> -->
+    <!----------------------------------------->
+
+    <!----------------------------------------->
+    <!-- <p id="id2">
+            This is Text1
+        </p>
+        <button onclick="call2()">
+            Click Me
+        </button>
+
+        <script>
+            function call2()
+            {
+                var pid = document.getElementById("id2");
+                pid.innerHTML = "Hello Jeel";
+            }
+        </script> -->
+    <!----------------------------------------->
+
+    <!----------------------------------------->
+    <!-- document.getElementByClass -->
+
+    <!-- <p class="cls1"> This is </p>
+        <h1 class="cls1"> This is </h1>
+        <p class="cls1"> This is </p>
+
+        <button onclick="call3()"> Click Me </button>
+
+        <script>
+            function call3()
+            {
+                d = document.getElementsByClassName("cls1")
+                //d[0].innerHTML = "This is ABC"
+                d[1].innerHTML = "Hello World"
+                //d[2].innerHTML = "This is XYZ"
+            }
+        </script> -->
+    <!----------------------------------------->
+
+    <!----------------------------------------->
+    <!-- document.getElementsByTagName -->
+    <!--<p> This is Para 1 </p>
+        <p> This is Para 2 </p>
+        <p> This is Para 3 </p>
+
+        <script>
+            document.getElementsByTagName("p")[0].innerHTML = "Hello";
+        </script> -->
+    <!----------------------------------------->
+
+    <!----------------------------------------->
+
+    <!-- <p id="id1"> This is Para 1 </p>
+        <p id="id2"> This is Para 2 </p>
+        <p id="id3"> This is Para 3 </p>
+
+        <script>
+            var i1 = document.getElementById("id1")
+            var i2 = document.getElementById("id2")
+            var i3 = document.getElementById("id3")
+            i1.innerHTML = "Hello 1"
+            i1.align = "center" 
+            i1.style.color = "Red"
+
+            i2.align = "right" 
+            i2.style.color = "Yellow"
+
+            i3.align = "left" 
+            i3.style.color = "green"
+
+        </script> -->
+
+    <!----------------------------------------->
+
+    <!----------------------------------------->
+    <!-- wap change Uppercase to Lowercase by click button -->
+
+    <!-- <p id="id1"> This is Text1 </p>
+
+        <button onclick="callup()"> Uppercase </button>
+        <button onclick="calllo()"> Lowercase </button>
+
+        <script>
+
+            function callup()
+            {
+                var up = document.getElementById("id1")
+                up.innerHTML = up.innerHTML.toUpperCase();
+            }
+
+            function calllo()
+            {
+                var lo = document.getElementById("id1")
+                lo.innerHTML = lo.innerHTML.toLowerCase();
+            }
+
+        </script> -->
+
+    <!----------------------------------------->
+
+    <!----------------------------------------->
+    <!--<script>
+            function call()
+            {
+                id = document.getElementById("t1")
+                id.value = id.value.toUpperCase();
+            }
+        </script>
+        <input type="text" id="t1" onchange="call()"/> -->
+    <!----------------------------------------->
+
+    <!----------------------------------------->
+    <!--<script>
+            function call()
+            {
+                var d = document.getElementById("t1")
+                d.style.backgroundColor = "Red"
+            }
+        </script>
+        <input type="text" id="t1" onfocus="call()"/> -->
+    <!----------------------------------------->
+
+    <!----------------------------------------->
+    <!--<script>
+            function call()
+            {
+                var d = document.getElementById("t1")
+                d.style.backgroundColor = "Red"
+            }
+        </script>
+        <input type="text" id="t1" onblur="call()"/> -->
+    <!----------------------------------------->
+
+    <!----------------------------------------->
+
+    <!-- <p id="myp" onmousedown="mydow()" onmouseup="mypu()">
+            This is Paragraph
+        </p>
+
+        <script>
+            function mypu()
+            {
+                document.getElementById("myp").style.color = "Red"
+            }
+
+            function mydow()
+            {
+                document.getElementById("myp").style.color = "Yellow"
+            }
+        </script> -->
+    <!----------------------------------------->
+
+    <!----------------------------------------->
+    <!-- <form action="#" onsubmit="fun()">
+            Enter Username 
+            <input type="text" name="fname"/>
+
+            <input type="submit" name="submit"/>
+        </form>
+        <script>
+            function fun()
+            {
+                alert("Form Submitted")
+            }
+        </script> -->
+    <!----------------------------------------->
+
+    <!----------------------------------------->
+    <!-- WAP mouse over heading id mouse go out of black -->
+    <!-- if button click on red button the backgroum  -->
+
+    <!-- <h1 id="myp" onmouseover="mydow()" onmouseout="mypu()">
+            This is Paragraph
+        </h1>
+
+        <button id="id2" onclick="back1()"> green</button>
+
+        <script>
+            function mypu()
+            {
+                document.getElementById("myp").style.color = "Black"
+            }
+
+            function mydow()
+            {
+                document.getElementById("myp").style.color = "Red "
+            }
+
+            function back1()
+            {
+                document.getElementById("body1").style.backgroundColor = "Green"
+            }
+        </script> -->
+
+    <!----------------------------------------->
+
+    <!----------------------------------------->
+    <!-- <input type="text" onkeypress="fun()">
+        <script>
+            function fun()
+            {
+                alert("You Pressed a key")
+            }
+        </script> -->
+    <!----------------------------------------->
+
+    <!----------------------------------------->
+    <!-- <input type="text" id="id1" onkeyup="fun1(this)" onkeypress="fun2(event)">
+        <script>
+            function fun2(e) 
+            {
+                alert(e.keyCode);    
+            }
+        </script> -->
+    <!----------------------------------------->
+
+    <!----------------------------------------->
+    <!-- If you enter letter in lowercase it convert uppercase -->
+    <!-- <input type="text" id="id1" onkeyup="fun1()" />
+        <script>
+            
+            function fun1() 
+            {
+                var up = document.getElementById("id1")
+                up.value = up.value.toUpperCase();
+            }
+        </script> -->
+    <!----------------------------------------->
+
+    <!----------------------------------------->
+    <!-- JS code 1:- keycode pres 2:- Backgroung change Red after reles key -->
+
+    <!-- <input type="text" id="id1" onkeyup="fun1()" onkeypress="fun2(event)">
+
+        <script>
+            function fun1() 
+            {
+                var x = document.getElementById("by1")
+                x.style.backgroundColor="Red"
+            }
+
+            function fun2(e) 
+            {
+                alert(e.keyCode);    
+            }
+        </script> -->
+
+    <!----------------------------------------->
+
+    <!----------------------------------------->
+    <!-- x = document.forms["myform"] ["uname"].value; :- Syntax -->
+
+    <form id="form" name="myform" onsubmit="return fun1()">
+
+        Username:
+        <input type="text" name="uname" id="id1">
+
+        <br><br>
+
+        Password:
+        <input type="password" name="pass" id="id2">
+
+        <br><br>
+
+        <button type="submit" name="butt" id="id3"> Submit </button>
+
+    </form>
+
+    <script>
+        function fun1() {
+            var x = document.forms["myform"]["uname"].value;
+            if (x =="") {
+                alert("Fill The Name");
+                return false;
+            }
+            else
+            {
+                alert("Submitted");
+            }
+        }
+    </script>
+    <!----------------------------------------->
+
+</body>
+
+</html>
